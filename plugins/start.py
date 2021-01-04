@@ -7,7 +7,7 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("Owner", url="https://t.me/shirnovff")],
         [InlineKeyboardButton(
-            "Sohb?t qrupumuz", url="https://t.me/sohbet_akm2")]
+            "Söhbət qrupumuz", url="https://t.me/sohbet_akm2")]
     ])
     welcomed = f"Salam <b>{message.from_user.first_name}</b>\n/help for More info"
     await message.reply_text(welcomed, reply_markup=joinButton)
