@@ -13,4 +13,4 @@
     - python3 -m bot
     
 	
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulla034/Youtube-Download-Bot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulla034/Telegram-Bot.git)
