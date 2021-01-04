@@ -1,4 +1,0 @@
-aiohttp
-yarl
-telethon
-cryptg
