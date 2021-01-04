@@ -26,4 +26,4 @@ should include the protocol, e.g. `https://example.com`.
 * `TG_BOT_FATHER_TOKEN` (defaults to None) - This option is mutually exclusive to `TG_SESSION_NAME`, and if set, the client will login as a bot, instead of an user.
 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulla034/Telegram-Bot.git
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulla034/Telegram-Bot.git)
