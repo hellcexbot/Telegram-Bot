@@ -5,9 +5,9 @@
   "keywords": [
     "Youtube","YoutubeDownloader"
   ],
-  "repository": "https://github.com/Abdulla034/Telegram-Bot",
-  "success_url": "https://github.com/Abdulla034/Telegram-Bot.git",
-  "website": "https://github.com/Abdulla034/Telegram-Bot.git",
+  "repository": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
+  "success_url": "https://t.me/youtubdlbot",
+  "website": "https://github.com/aryanvikash/Youtube-Downloader-Bot",
   "env": {
         "API_ID": {"description": "Get this value from https://my.telegram.org", "required": true},
         "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
@@ -17,14 +17,13 @@
         {"url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"},
         {"url": "heroku/python"}
     ],
-  "addons": [{
-    "plan": "heroku-postgresql"
-  }],
-  "buildpacks": [{
-    "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  },{
-    "url": "heroku-community/apt"
-    }]
+  "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+      "stack": "heroku-20"
+
+
 }
