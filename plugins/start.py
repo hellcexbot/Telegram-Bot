@@ -9,6 +9,6 @@ async def start(client, message):
         [InlineKeyboardButton(
             "Kanalımız 📣", url="https://t.me/AzeBots")]
     ])
-    welcomed = f"Salam <b>{message.from_user.first_name}</b>\n/help for More info"
+    welcomed = f"Salam🤚🏻<b>{message.from_user.first_name}</b>\n/🤖 Bu Bot ilə siz YouTube videolarını səs faylı kimi yükləyə və getdiyiniz hər yerə apara bilərsiniz."
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
