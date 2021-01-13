@@ -1,4 +1,4 @@
-# Youtube Dl bot 😉
+# Youtube Dl bot 💻
 ## Prerequisite
     ffmpeg
   
@@ -12,4 +12,4 @@
     - install dependencies
     - python3 -m bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Abdulla034/Telegram-Bot.git)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hellcexbot/Telegram-Bot.git)
